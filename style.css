@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+  /*   margin-top: -20px */
+  }
+  
+  
+  #nav-div {
+    border: 10px;
+    position: fixed;
+  
+  }
+  
+  #main-doc {
+    margin-left: 350px;
+    padding-top: 20px;
+    position: relative;
+  }
+  
+  #navbar {
+    display: flex;
+    flex-direction: column;
+  /*   border: 10px; */
+  /*   border-color: black; */
+    height: 100%;
+    width: 299px;
+    border-right:2px solid black;
+    border-color:rgba(0, 22, 22, 0.4);
+    position: fixed;
+  }
+  
+  #nav-div > h1 {
+    text-align: center;
+    font-size: 28px;
+    width: 299px;
+    border-right:2px solid black;
+    margin: 0px;
+    padding: 14px 0 18px 0;
+    border-color:rgba(0, 22, 22, 0.4);
+  }
+  
+  @media only screen and (max-width: 815px) {
+
+    #nav-div {
+        border: 0px;
+        position: relative;
+      
+      }
+    #navbar {
+        position: relative;
+        width: 99%;
+        max-height: 400px;
+        border: 2px solid black;
+        margin: auto;
+        margin-top: 0px;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        overflow: scroll;
+    }
+
+    #main-doc {
+       position: relative;
+      margin: auto;
+      width: 90%;
+    }
+    
+    .nav-link {
+      overflow: scrollable;
+    }
+    
+    #nav-div > h1 {
+      border: none;
+      width: 100%;
+    }
+  }
+  
+  section > h1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  
+  section > p {
+    padding-left: 20px;
+  }
+  
+  section > ul {
+    padding-left: 90px;
+  }
+  
+  section > code {
+    display: block;
+    color: #4d4e53;
+    margin: 20px;
+    padding: 14px;
+    margin-left: 41px;
+    line-height: 28px;
+  }
+  
+  code {
+  /*   font: monospace; */
+    width: 500px;
+    font-weight: 500;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .nav-link {
+    padding: 14px 29px;
+    font-size: 17px;
+    text-decoration: none;
+    border-top: 1px solid black;
+    color: #4d4e53;
+    font-weight: 600;
+  }
+  
+  #main-doc {
+    
+  }
+  
+  #code-sample {
+    
+  }
